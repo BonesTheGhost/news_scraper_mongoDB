@@ -1,15 +1,17 @@
 {
-  "name": "news_scraper_mongodb",
+  "name": "news_scraper_mongoDB",
   "version": "1.0.0",
-  "description": "HW for week 18.",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BonesTheGhost/news_scraper_mongoDB.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,7 +19,6 @@
   },
   "homepage": "https://github.com/BonesTheGhost/news_scraper_mongoDB#readme",
   "dependencies": {
-    "axios": "^0.19.1",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
