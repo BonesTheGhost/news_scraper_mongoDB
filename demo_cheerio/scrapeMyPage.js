@@ -16,7 +16,11 @@ request('https://bonestheghost.github.io/hw6_GiphyAPI/', (error, response, html)
 
         output = searchSection.find('p').text();
 
+
+        console.log("INFORMATION SCRAPED::")
+        console.log("===============================")
         console.log(output);
+        console.log("===============================")
 
         //Essentially, query a page, go into a particular div/element/whatever on that page. In this case, go to my GIPHY page, 
         // find the 'search-section' id, and then crawl through anything in that container and find a 'p' tag.
